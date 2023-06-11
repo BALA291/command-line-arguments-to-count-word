@@ -30,7 +30,7 @@ Developed by: BALAMURUGAN B
 Register Number: 212222230016
 
 import sys
-fp=open(sys.argv[-1],'r')
+fp=open(sys.argv[1],'r')
 count=0
 for line in fp:
     words=line.split()
